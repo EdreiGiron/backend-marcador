@@ -1,0 +1,21 @@
+services:
+  api:
+    build:
+      context: ./Marcador.Api      
+      dockerfile: Dockerfile
+    container_name: marcador_api
+    environment:
+      ASPNETCORE_URLS: "http://+:80"
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sql_server2022
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "P@sswordSeguro123"
+    ports:
+      - "1433:1433"
