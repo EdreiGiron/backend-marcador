@@ -1,4 +1,4 @@
-namespace Marcador.Api.Domain;
+namespace Marcador.Api.Models;
 
 public class TeamState
 {

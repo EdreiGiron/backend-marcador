@@ -1,4 +1,4 @@
-using Marcador.Api.Domain;
+using Marcador.Api.Models;
 using Marcador.Api.Infra;
 using Microsoft.AspNetCore.Mvc;
 

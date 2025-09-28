@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edrei\\OneDrive\\Desktop\\DesarrolloWeb\\Proyectos\\backend-marcador\\Marcador.Api\\Marcador.Api.csproj": {}
+    "C:\\Users\\Diego\\Desktop\\Desarrollo backend proyecto edrei\\backend_marcador\\Marcador.Api\\Marcador.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edrei\\OneDrive\\Desktop\\DesarrolloWeb\\Proyectos\\backend-marcador\\Marcador.Api\\Marcador.Api.csproj": {
+    "C:\\Users\\Diego\\Desktop\\Desarrollo backend proyecto edrei\\backend_marcador\\Marcador.Api\\Marcador.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edrei\\OneDrive\\Desktop\\DesarrolloWeb\\Proyectos\\backend-marcador\\Marcador.Api\\Marcador.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Diego\\Desktop\\Desarrollo backend proyecto edrei\\backend_marcador\\Marcador.Api\\Marcador.Api.csproj",
         "projectName": "Marcador.Api",
-        "projectPath": "C:\\Users\\edrei\\OneDrive\\Desktop\\DesarrolloWeb\\Proyectos\\backend-marcador\\Marcador.Api\\Marcador.Api.csproj",
-        "packagesPath": "C:\\Users\\edrei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edrei\\OneDrive\\Desktop\\DesarrolloWeb\\Proyectos\\backend-marcador\\Marcador.Api\\obj\\",
+        "projectPath": "C:\\Users\\Diego\\Desktop\\Desarrollo backend proyecto edrei\\backend_marcador\\Marcador.Api\\Marcador.Api.csproj",
+        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diego\\Desktop\\Desarrollo backend proyecto edrei\\backend_marcador\\Marcador.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\edrei\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -43,6 +43,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.AspNetCore.SignalR": {
               "target": "Package",
               "version": "[1.2.0, )"
@@ -63,9 +71,17 @@
               "target": "Package",
               "version": "[9.0.8, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             }
           },
           "imports": [
@@ -87,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
