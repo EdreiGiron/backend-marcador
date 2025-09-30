@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego\\Desktop\\Desarrollo backend proyecto edrei\\backend_marcador\\Marcador.Api\\Marcador.Api.csproj": {}
+    "C:\\UNIVERSIDAD\\DesarrolloWeb\\Proyectos\\backend-marcador\\Marcador.Api\\Marcador.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diego\\Desktop\\Desarrollo backend proyecto edrei\\backend_marcador\\Marcador.Api\\Marcador.Api.csproj": {
+    "C:\\UNIVERSIDAD\\DesarrolloWeb\\Proyectos\\backend-marcador\\Marcador.Api\\Marcador.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego\\Desktop\\Desarrollo backend proyecto edrei\\backend_marcador\\Marcador.Api\\Marcador.Api.csproj",
+        "projectUniqueName": "C:\\UNIVERSIDAD\\DesarrolloWeb\\Proyectos\\backend-marcador\\Marcador.Api\\Marcador.Api.csproj",
         "projectName": "Marcador.Api",
-        "projectPath": "C:\\Users\\Diego\\Desktop\\Desarrollo backend proyecto edrei\\backend_marcador\\Marcador.Api\\Marcador.Api.csproj",
-        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego\\Desktop\\Desarrollo backend proyecto edrei\\backend_marcador\\Marcador.Api\\obj\\",
+        "projectPath": "C:\\UNIVERSIDAD\\DesarrolloWeb\\Proyectos\\backend-marcador\\Marcador.Api\\Marcador.Api.csproj",
+        "packagesPath": "C:\\Users\\edrei\\.nuget\\packages\\",
+        "outputPath": "C:\\UNIVERSIDAD\\DesarrolloWeb\\Proyectos\\backend-marcador\\Marcador.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\edrei\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -54,6 +55,10 @@
             "Microsoft.AspNetCore.SignalR": {
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -103,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
