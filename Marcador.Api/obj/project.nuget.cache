@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4dZGA2tD+ek=",
+  "dgSpecHash": "VReKxaJPgO0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diego\\Desktop\\Desarrollo backend proyecto edrei\\backend_marcador\\Marcador.Api\\Marcador.Api.csproj",
+  "projectFilePath": "c:\\Users\\Diego\\Desktop\\Desarrollo_Proyecto\\backend-marcador\\Marcador.Api\\Marcador.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diego\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
